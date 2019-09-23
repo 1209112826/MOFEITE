@@ -4,9 +4,9 @@ using namespace std;
 /*int main()
 {
     int a,b,c,p,x1,x2;
-    cout<<"ÇëÊäÈëa,b,cµÄÖµ"<<endl;
+    cout<<"è¯·è¾“å…¥a,b,cçš„å€¼"<<endl;
     cin>>a>>b>>c;
-    cout<<"½á¹ûÎª£º"<<"x1="<<(-b+sqrt(b*b-4*a*c))/2*a<<" "<<"x2="<<(-b-sqrt(b*b-4*a*c))/2*a;
+    cout<<"ç»“æœä¸ºï¼š"<<"x1="<<(-b+sqrt(b*b-4*a*c))/(2.0*a)<<" "<<"x2="<<(-b-sqrt(b*b-4*a*c))/(2.0*a);
     return 0;
 }*/
 
@@ -14,10 +14,10 @@ using namespace std;
 {
     int a,b,c;
     float p;
-    cout<<"ÇëÊäÈëa,b,cµÄÖµ"<<endl;
+    cout<<"è¯·è¾“å…¥a,b,cçš„å€¼"<<endl;
     cin>>a>>b>>c;
-    p=(a+b+c)/2;
-    cout<<"Èı½ÇĞÎÃæ»ıÎª£º"<<sqrt(p*(p-a)*(p-b)*(p-c))<<endl;
+    p=(a+b+c)/2.0;
+    cout<<"ä¸‰è§’å½¢é¢ç§¯ä¸ºï¼š"<<sqrt(p*(p-a)*(p-b)*(p-c))<<endl;
     return 0;
 }*/
 
@@ -43,9 +43,9 @@ using namespace std;
         case 0:a+=day;
     }
     if(a%7)
-        cout<<"µÚ"<<a/7+1<<"ÖÜ"<<"µÚ"<<a%7<<"Ìì"<<endl;
+        cout<<"ç¬¬"<<a/7+1<<"å‘¨"<<"ç¬¬"<<a%7<<"å¤©"<<endl;
     else
-        cout<<"µÚ"<<a/7<<"ÖÜ"<<"µÚ"<<a%7<<"Ìì"<<endl;
+        cout<<"ç¬¬"<<a/7<<"å‘¨"<<"ç¬¬"<<a%7<<"å¤©"<<endl;
     return 0;
 
 }
